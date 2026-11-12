@@ -107,7 +107,7 @@ const LoginPage = () => {
           {/* Logo */}
           <div className="mb-8 text-center">
             <img
-              src={siteSettings.logo}
+              src="./assets/images/logo.png"
               alt={`${siteSettings.name} Logo`}
               className="mx-auto mb-5 h-16 w-16 object-contain"
             />

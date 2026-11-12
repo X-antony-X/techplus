@@ -8,6 +8,7 @@ import CoursesPage from './pages/CoursesPage';
 import CourseDetailsPage from './pages/CourseDetailsPage';
 import CoursePlayerPage from './pages/CoursePlayerPage';
 import CheckoutPage from './pages/CheckoutPage';
+import ScrollToTop from './components/layout/ScrollToUp';
 
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
@@ -28,6 +29,7 @@ import PageSettings from './pages/admin/PageSetting';
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>

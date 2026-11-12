@@ -1,6 +1,6 @@
 
 import { supabase } from "./supabase";
-
+import logo from "./assets/images/logo.png";
 const { data, error } = await supabase
   .from("site_settings")
   .select("*")
@@ -13,7 +13,7 @@ if (error) {
 export const siteSettings = {
   name: data?.name || "TECH PLUS",
   description: data?.description || "",
-  logo: data?.logo || "/src/assets/images/logo.png",
+  logo: logo,
   favicon: data?.favicon || "/favicon.ico",
 
   theme: {

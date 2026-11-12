@@ -256,7 +256,7 @@ const Navbar = () => {
           className="flex items-center gap-3"
         >
           <img
-            src={siteSettings.logo}
+            src="./assets/images/logo.png"
             alt={`${siteSettings.name} Logo`}
             className="h-11 w-11 object-contain"
           />
